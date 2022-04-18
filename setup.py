@@ -13,4 +13,5 @@ setup(
     name='vmath',
     version='0.2.0',
     ext_modules=[ext],
+    data_files=[('.', ['vmath.pyi'])],
 )
