@@ -4,6 +4,7 @@ ext = Extension(
     name='vmath',
     sources=['./vmath.cpp'],
     define_macros=[('PY_SSIZE_T_CLEAN', None)],
+    extra_compile_args=['-fpermissive'],
     include_dirs=[],
     library_dirs=[],
     libraries=[],
