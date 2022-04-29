@@ -2,7 +2,7 @@ project = 'vmath'
 copyright = '2022, Szabolcs Dombi'
 author = 'Szabolcs Dombi'
 
-release = '0.2.0'
+release = '0.3.0'
 
 extensions = ['sphinx_rtd_theme']
 
